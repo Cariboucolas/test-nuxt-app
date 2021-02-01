@@ -1,28 +1,11 @@
 <template>
   <div class="container">
     <div>
-      <Logo />
       <h1 class="title">
-        test-nuxt-app
+        My Nuxt App
       </h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
+      <nuxt-link to="/users">Users</nuxt-link>
+      <nuxt-link to="/products">Products</nuxt-link>
     </div>
   </div>
 </template>
