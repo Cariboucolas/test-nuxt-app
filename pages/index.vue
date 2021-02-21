@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <section class="container">
     <div>
       <h1 class="title">
         My Nuxt App
@@ -7,11 +7,11 @@
       <nuxt-link to="/users">Users</nuxt-link>
       <nuxt-link to="/products">Products</nuxt-link>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>
-export default {}
+
 </script>
 
 <style>
